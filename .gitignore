@@ -1,0 +1,23 @@
+# Competition data and generated predictions
+data/*.csv
+data/*.parquet
+*.parquet
+*.joblib
+*.pkl
+
+# Local evidence may contain student information
+evidence/*
+!evidence/README.md
+
+# Notebook and Python caches
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
