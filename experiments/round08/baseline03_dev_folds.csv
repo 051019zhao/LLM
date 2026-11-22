@@ -1,0 +1,4 @@
+fold,kind,balanced_accuracy,fit_official_rows,fit_external_rows
+1,baseline03,0.3319444444444445,1440,0
+2,baseline03,0.3333333333333333,1440,0
+3,baseline03,0.3375,1440,0

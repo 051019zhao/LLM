@@ -1,0 +1,29 @@
+{
+  "source_kind": "instyle",
+  "loaded": 38642,
+  "eligible": 32251,
+  "selected": 32175,
+  "per_label": {
+    "claude-fable-5": 1282,
+    "claude-opus-4-6": 1349,
+    "claude-opus-4-8": 1392,
+    "claude-opus-5": 1380,
+    "claude-sonnet-5": 1366,
+    "gemini-3.1-pro-preview": 988,
+    "gemini-3.6-flash": 2643,
+    "gemini-3.7-flash": 804,
+    "gemini-3.8-flash": 3000,
+    "glm-5.3": 1596,
+    "glm-5.3-flash": 1656,
+    "gpt-5.5": 2439,
+    "gpt-5.6-luna": 2554,
+    "gpt-5.6-sol": 2430,
+    "gpt-5.6-terra": 2490,
+    "gpt-6-astra": 2164,
+    "kimi-k3": 1586,
+    "qwen3.8-max": 1056
+  },
+  "sampling": "uniform within class; cap=3000",
+  "publisher_match_weight_used": false,
+  "publisher_style_score_used": false
+}

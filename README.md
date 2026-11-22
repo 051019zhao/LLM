@@ -1,5 +1,24 @@
 # Name That LLM 数据挖掘课程项目
 
+## 最新候选：08（尚未提交 Kaggle）
+
+已提交的最好公榜是 03 的 **0.368**。08 使用 **Open Pool v18 + 加权四视图 LinearSVC**，CPU 离线运行：
+
+| 同一提示词划分 | 03 | 08 |
+|---|---:|---:|
+| 开发集三折均分 | 0.3343 | **0.4444** |
+| 本轮预留 30 个提示词 | 0.3799 | **0.4653** |
+
+这些是离线验证，不能保证公榜超过 0.41。历史实验和外部清洗曾参考完整官方训练数据，局限、逐类退步与区间均见[08 实验记录](experiments/round08/README.md)。
+
+- [08 Notebook](notebooks/08_external_data_submission.ipynb)
+- [方法、公开来源、输入要求与复现步骤](docs/08_RESEARCH_AND_METHOD.md)
+- 必须同时添加比赛输入和 [Open Pool **版本 18**](https://www.kaggle.com/datasets/crtproduction/name-that-llm-open-pool/versions/18)，关闭 Internet，CPU，Save & Run All；成功后提交 `submission.parquet`。
+- 本地先 `python experiments/download_public_data.py`，再 `python run_local.py --round 8 --output-dir local_results/round08_submission`。
+- 代码、汇总结果和数据归属已同步；比赛数据、外部原文、样本级预测不上传。
+
+## 初始基线说明
+
 华南理工大学《数据挖掘》课程报告的基础仓库。当前提供一个**可独立运行的基线 Notebook**，用于验证建模、生成 Kaggle 提交文件和记录后续改进。
 
 ## 先跑通一次有效提交

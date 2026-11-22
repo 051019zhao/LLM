@@ -1,0 +1,8 @@
+{
+  "rows": 4000,
+  "labels": 18,
+  "finite": true,
+  "row_scores_sum_to_one": true,
+  "accuracy_measured": false,
+  "official_preview_rows_returned": 3
+}

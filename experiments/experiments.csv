@@ -1,2 +1,11 @@
-date,version,change,group_cv_balanced_accuracy,public_lb_score,public_lb_rank,kaggle_submission_url,notes
-
+﻿date,version,change,group_cv_balanced_accuracy,public_lb_score,public_lb_rank,kaggle_submission_url,notes
+2026-11-18,round1_char_style,字符 TF-IDF + 风格特征,0.360421,,,,本地五折验证，首选提交候选
+2026-11-18,round1_word_char_style,词 + 字符 TF-IDF + 风格特征,0.357816,,,,本地五折验证
+2026-11-18,round1_char,字符 TF-IDF,0.314508,,,,本地五折验证
+2026-11-18,round1_word_char,词 + 字符 TF-IDF（基线）,0.307446,,,,本地五折验证
+2026-11-18,round1_word,词 TF-IDF,0.262605,,,,本地五折验证
+2026-11-18,round2_nested,扩展文风特征与正则化选型 (blend_c1_w25),0.363014,0.368,,https://www.kaggle.com/code/veltsofuad/notebook07e3726630?scriptVersionId=371029596,首个有效提交 Notebook Version 4，公榜分数来自提交页
+2026-11-18,round3_masked_kernel,主题遮蔽核岭分类 + 首版融合,0.346947,0.363,,https://www.kaggle.com/code/veltsofuad/notebook4bce5f502c?scriptVersionId=371044280,dan03 有效提交，110 组开发集四折均值，40 组留出集 0.382123
+2026-11-19,gemini06,多视图核岭 SVM 树与批量校准,0.379349,0.361,,,公榜来自用户反馈；本地按原代码复核五折；见 gemini06_audit
+2026-11-19,round07_nested,受控特征和 NB-SVM 选型 (baseline_nb50),0.370495,,,,外层四折内层三折，未提交 Kaggle
+2026-11-22,round08_external,Open Pool v18 + weighted four-view LinearSVC,0.444444,,,,开发120提示词三折；本轮留出30提示词0.465262，同组03为0.379885；54k外部行；尚未提交；外部清洗参考完整官方数据

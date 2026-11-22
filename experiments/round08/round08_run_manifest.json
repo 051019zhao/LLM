@@ -1,0 +1,17 @@
+{
+  "fit_official_rows": 2699,
+  "fit_external_rows": 54000,
+  "features": 340000,
+  "train_official_accuracy": 1.0,
+  "iterations": 44,
+  "official_weight": 12.0,
+  "candidate": "08_openpool_multiview_svm",
+  "elapsed_seconds": 296.8514870000072,
+  "python": "3.14.3",
+  "sklearn": "1.8.0",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "scipy": "1.17.1",
+  "output_rows": 3,
+  "external_sha256": "7b1e500ad6512caecc64f6e512d1189a6813448386ee2476398683f6a1ddf492"
+}

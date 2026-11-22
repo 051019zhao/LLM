@@ -1,6 +1,20 @@
 # Competition data and generated predictions
 data/*.csv
 data/*.parquet
+/data/external/
+/round08_*.csv
+/notebooks/round08_*.csv
+/round1_*.csv
+/notebooks/round1_*.csv
+/round2_*.csv
+/notebooks/round2_*.csv
+/round3_*.csv
+/notebooks/round3_*.csv
+/round4_*.csv
+/notebooks/round4_*.csv
+/round07_*.csv
+/notebooks/round07_*.csv
+/local_results/
 *.parquet
 *.joblib
 *.pkl
@@ -20,4 +34,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
-

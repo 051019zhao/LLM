@@ -1,0 +1,29 @@
+{
+  "source_kind": "extended",
+  "loaded": 15226,
+  "eligible": 7562,
+  "selected": 7562,
+  "per_label": {
+    "claude-fable-5": 383,
+    "claude-opus-4-6": 289,
+    "claude-opus-4-8": 317,
+    "claude-opus-5": 340,
+    "claude-sonnet-5": 361,
+    "gemini-3.1-pro-preview": 419,
+    "gemini-3.6-flash": 407,
+    "gemini-3.7-flash": 349,
+    "gemini-3.8-flash": 393,
+    "glm-5.3": 392,
+    "glm-5.3-flash": 395,
+    "gpt-5.5": 496,
+    "gpt-5.6-luna": 492,
+    "gpt-5.6-sol": 479,
+    "gpt-5.6-terra": 471,
+    "gpt-6-astra": 445,
+    "kimi-k3": 684,
+    "qwen3.8-max": 450
+  },
+  "sampling": "uniform within class; cap=3000",
+  "publisher_match_weight_used": false,
+  "publisher_style_score_used": false
+}

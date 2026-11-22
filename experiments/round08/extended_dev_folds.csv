@@ -1,0 +1,4 @@
+fold,kind,balanced_accuracy,fit_official_rows,fit_external_rows,features,train_official_accuracy,iterations,official_weight
+1,extended,0.3777777777777777,1440,7562,317629,1.0,31,12.0
+2,extended,0.3930555555555555,1440,7562,317336,1.0,32,12.0
+3,extended,0.3763888888888889,1440,7562,317310,1.0,32,12.0

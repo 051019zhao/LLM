@@ -1,0 +1,12 @@
+{
+  "candidate": "open",
+  "C": 0.5,
+  "official_weight": 12,
+  "cap_per_label": 3000,
+  "sampling_seed": 1908,
+  "split_seed": 31608,
+  "core_sha256": "0de1cf035ec71b6c1bce7bfb79cbf76348b030b46b7733dfea78f4b4cf711d85",
+  "selection_basis": "Open Pool route/provenance exclusions and first dev fold 0.461111 vs in-style mean 0.425. Remaining Open Pool dev folds pending; no holdout labels scored to choose this candidate.",
+  "historically_untouched": false,
+  "opened_at_local": "2026-11-22T09:33:47"
+}

@@ -1,0 +1,9 @@
+{
+  "dataset": "crtproduction/name-that-llm-open-pool",
+  "version": 18,
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/crtproduction/name-that-llm-open-pool?datasetVersionNumber=18",
+  "archive_sha256": "1017d4f8ed47815b233876846bfc737b9c1d0fbc3a5a5a21718ac9f19968e403",
+  "parquet_sha256": "7b1e500ad6512caecc64f6e512d1189a6813448386ee2476398683f6a1ddf492",
+  "license": "CC BY-SA 4.0",
+  "source_attribution": "docs/EXTERNAL_DATA_ATTRIBUTION.csv"
+}
